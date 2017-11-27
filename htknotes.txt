@@ -1,0 +1,15 @@
+scripts/acoustic_model_training/steps/make_monophone.sh:    $BIN/HRest -A -C $OUTDIR/config/general.conf -D -V -H $OUTDIR/floor_cmp.mmf \
+
+scripts/acoustic_model_training/subrecipes/script/quick_voicebuild_01.sh:$STEPS/make_monophone.sh $OUT/$PREVIOUS $OUT/$STEPNUM  $BIN
+
+recipes/naive_01_hts.cfg:acoustic_model = AcousticModelWorld(acoustic_subrecipe='quick_voicebuild_01', input_label_filetype='lab', \
+
+
+#####
+
+HRest ---> make_monophone.sh
+
+make_monophone.sh ---> quick_voicebuild_01.sh
+
+quick_voicebuild_01.sh ---> naive_01_hts.cfg
+
