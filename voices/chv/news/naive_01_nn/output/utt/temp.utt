@@ -1,0 +1,106 @@
+<utt text="кандай мандай!" status="OK" utterance_name="temp" processors_used=",word_splitter,segment_adder,word_vector_tagger,pause_predictor,phrase_maker,labelmaker,duration_predictor,dnn_labelmaker,acoustic_predictor" vsm_d1_PADDING="0.657074671608" vsm_d2_PADDING="0.0142308775142" vsm_d3_PADDING="0.052066436845" vsm_d4_PADDING="0.00619530155795" vsm_d5_PADDING="0.0170425957137" vsm_d6_PADDING="0.00218279303703" vsm_d7_PADDING="-0.000830328977506" vsm_d8_PADDING="-0.000553985458913" vsm_d9_PADDING="0.00631140927387" vsm_d10_PADDING="0.00413508603391">
+  <phrase>
+    <token text="_END_" token_class="_END_" safetext="_END_" phrase_start="True" phrase_end="False"/>
+    <token text="кандай" token_class="word" safetext="_CYRILLICSMALLLETTERKA__CYRILLICSMALLLETTERA__CYRILLICSMALLLETTEREN__CYRILLICSMALLLETTERDE__CYRILLICSMALLLETTERA__CYRILLICSMALLLETTERSHORTI_" vsm_d1="0.700367295239" vsm_d2="0.067514276152" vsm_d3="0.0313075319033" vsm_d4="-0.00060238671252" vsm_d5="0.0357859147714" vsm_d6="0.0188999071923" vsm_d7="0.0167874450404" vsm_d8="-0.00873253378114" vsm_d9="0.00900881408174" vsm_d10="-0.000853225946956" phrase_start="False" phrase_end="False">
+      <segment pronunciation="_CYRILLICSMALLLETTERKA_">
+        <state start="0" end="5"/>
+        <state start="5" end="20"/>
+        <state start="20" end="45"/>
+        <state start="45" end="75"/>
+        <state start="75" end="115"/>
+      </segment>
+      <segment pronunciation="_CYRILLICSMALLLETTERA_">
+        <state start="115" end="125"/>
+        <state start="125" end="140"/>
+        <state start="140" end="175"/>
+        <state start="175" end="195"/>
+        <state start="195" end="220"/>
+      </segment>
+      <segment pronunciation="_CYRILLICSMALLLETTEREN_">
+        <state start="220" end="230"/>
+        <state start="230" end="245"/>
+        <state start="245" end="255"/>
+        <state start="255" end="270"/>
+        <state start="270" end="290"/>
+      </segment>
+      <segment pronunciation="_CYRILLICSMALLLETTERDE_">
+        <state start="290" end="300"/>
+        <state start="300" end="320"/>
+        <state start="320" end="335"/>
+        <state start="335" end="350"/>
+        <state start="350" end="370"/>
+      </segment>
+      <segment pronunciation="_CYRILLICSMALLLETTERA_">
+        <state start="370" end="395"/>
+        <state start="395" end="415"/>
+        <state start="415" end="450"/>
+        <state start="450" end="465"/>
+        <state start="465" end="480"/>
+      </segment>
+      <segment pronunciation="_CYRILLICSMALLLETTERSHORTI_">
+        <state start="480" end="490"/>
+        <state start="490" end="505"/>
+        <state start="505" end="515"/>
+        <state start="515" end="530"/>
+        <state start="530" end="550"/>
+      </segment>
+    </token>
+    <token text=" " token_class="space" safetext="_SPACE_" silence_predicted="0" phrase_start="False" phrase_end="False"/>
+    <token text="мандай" token_class="word" safetext="_CYRILLICSMALLLETTEREM__CYRILLICSMALLLETTERA__CYRILLICSMALLLETTEREN__CYRILLICSMALLLETTERDE__CYRILLICSMALLLETTERA__CYRILLICSMALLLETTERSHORTI_" vsm_d1="0.700367295239" vsm_d2="0.067514276152" vsm_d3="0.0313075319033" vsm_d4="-0.00060238671252" vsm_d5="0.0357859147714" vsm_d6="0.0188999071923" vsm_d7="0.0167874450404" vsm_d8="-0.00873253378114" vsm_d9="0.00900881408174" vsm_d10="-0.000853225946956" phrase_start="False" phrase_end="True">
+      <segment pronunciation="_CYRILLICSMALLLETTEREM_">
+        <state start="550" end="570"/>
+        <state start="570" end="585"/>
+        <state start="585" end="610"/>
+        <state start="610" end="625"/>
+        <state start="625" end="645"/>
+      </segment>
+      <segment pronunciation="_CYRILLICSMALLLETTERA_">
+        <state start="645" end="670"/>
+        <state start="670" end="690"/>
+        <state start="690" end="725"/>
+        <state start="725" end="740"/>
+        <state start="740" end="755"/>
+      </segment>
+      <segment pronunciation="_CYRILLICSMALLLETTEREN_">
+        <state start="755" end="770"/>
+        <state start="770" end="790"/>
+        <state start="790" end="805"/>
+        <state start="805" end="815"/>
+        <state start="815" end="830"/>
+      </segment>
+      <segment pronunciation="_CYRILLICSMALLLETTERDE_">
+        <state start="830" end="850"/>
+        <state start="850" end="870"/>
+        <state start="870" end="890"/>
+        <state start="890" end="900"/>
+        <state start="900" end="915"/>
+      </segment>
+      <segment pronunciation="_CYRILLICSMALLLETTERA_">
+        <state start="915" end="950"/>
+        <state start="950" end="970"/>
+        <state start="970" end="1010"/>
+        <state start="1010" end="1025"/>
+        <state start="1025" end="1040"/>
+      </segment>
+      <segment pronunciation="_CYRILLICSMALLLETTERSHORTI_">
+        <state start="1040" end="1095"/>
+        <state start="1095" end="1115"/>
+        <state start="1115" end="1150"/>
+        <state start="1150" end="1160"/>
+        <state start="1160" end="1170"/>
+      </segment>
+    </token>
+  </phrase>
+  <token text="!" token_class="punctuation" safetext="_EXCLAMATIONMARK_" silence_predicted="1" phrase_start="False" phrase_end="False">
+    <segment pronunciation="sil">
+      <state start="1170" end="1280"/>
+      <state start="1280" end="1310"/>
+      <state start="1310" end="1410"/>
+      <state start="1410" end="1435"/>
+      <state start="1435" end="1485"/>
+    </segment>
+  </token>
+  <phrase>
+    <token text="_END_" token_class="_END_" safetext="_END_" phrase_start="True" phrase_end="True"/>
+  </phrase>
+</utt>
