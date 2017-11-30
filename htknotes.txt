@@ -13,3 +13,8 @@ make_monophone.sh ---> quick_voicebuild_01.sh
 
 quick_voicebuild_01.sh ---> naive_01_hts.cfg
 
+
+
+####
+
+voices/chv/news/naive_01_nn/processors/aligner/cmp.mmf ---> this looks like the GMM used in alignement

@@ -1,4 +1,0 @@
-mgc lf0 bap
-60 1 5
-mgc vuv lf0 bap
-180 1 3 15
