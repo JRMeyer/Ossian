@@ -1,0 +1,1 @@
+/home/ubuntu/Turkic_TTS/corpus/chv/speakers/chuvash_news/train/17395.0002.txt
